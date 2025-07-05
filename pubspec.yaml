@@ -1,0 +1,37 @@
+name: auth_task
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  go_router: ^15.1.1
+  riverpod: ^2.6.1
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+  rxdart: ^0.28.0
+  flutter_svg: ^2.0.10+1
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.2.2
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.0
+  dio: ^5.8.0+1
+  pretty_dio_logger: ^1.4.0
+
+  crypto: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.5.4
+  flutter_lints: ^6.0.0
+  custom_lint: ^0.7.0
+  riverpod_lint: ^2.6.5
+  riverpod_generator: ^2.6.5
+
+flutter:
+  uses-material-design: true
